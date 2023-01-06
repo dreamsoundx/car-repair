@@ -1,0 +1,145 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap');
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  color: #4b4b4b;
+  background: #f5f5f5;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* ------------------------------ */
+
+.logoipsum {
+  min-width: 100%;
+  background: url('../img/bg_header.png') 50% 0 no-repeat;
+  padding-bottom: 80px;
+}
+.logoipsum__title {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 154px 0px 0px 0px;
+  margin-bottom: 312px;
+}
+.logoipsum__title-text {
+  max-width: 583px;
+  margin-bottom: 48px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+  color: #ffffff;
+}
+.logoipsum__title-button {
+  font-size: 0;
+  max-width: 211px;
+  background-color: #c40b0b;
+}
+.logoipsum__title-button-text {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  vertical-align: middle;
+  width: 80%;
+  padding: 0px 0px 0px 20px;
+}
+
+.logoipsum__title-button-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  text-align: right;
+}
+
+.whoweare {
+  padding-bottom: 150px;
+}
+
+.whoweare__container {
+  max-width: 1020px;
+  margin: -80px auto 0;
+  padding: 100px 87px 0px 87px;
+  border: 1px solid transparent;
+  background: #ffffff url('../img/bg.png') 100% 0 no-repeat;
+}
+
+.whoweare__subtitle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 27px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  background: url('../img/icon.png') 0 0 no-repeat;
+  padding: 0px 0px 0px 30px;
+}
+.whoweare__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #02133c;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.whoweare__text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  margin-bottom: 52px;
+}
+.whoweare__image {
+  margin-bottom: -120px;
+}
+
+.whoweare__image img {
+  max-width: 100%;
+}
