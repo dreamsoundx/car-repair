@@ -52,5 +52,84 @@ body {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 /* ------------------------------ */
+
+[class*='__container'] {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-flex;
+  background-color: #c40b0b;
+  overflow: hidden;
+  column-gap: 6px;
+}
+.button__title {
+  padding: 12px 0px 12px 19px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.arrow-button {
+  padding: 0px 18px 0px 10px;
+  display: flex;
+  align-items: center;
+  transform: skew(-20deg);
+  transform-origin: bottom right;
+  background: #e30b0b;
+}
+
+.arrow-button__image {
+  padding: 0px 0px 0px 3.5px;
+  transform: skew(20deg);
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding: 26px 0px 0px 0px;
+}
+.header__container {
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.top-notch {
+  position: relative;
+  padding: 280px 0px 312px 0px;
+  background: url('../assets/mainpage/logoipsum/img/hero.png') 50% 0 / auto 100%
+    no-repeat;
+}
+.top-notch__container {
+}
+.top-notch__title {
+  max-width: 583px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.top-notch__title:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.top-notch__button {
+}
+
+.button__arrow {
+}
+
+.footer {
+}
