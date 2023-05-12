@@ -377,6 +377,66 @@ body {
   align-self: center;
 }
 
+.customers {
+  padding: 0px 0px 210px 0px;
+}
+.customers__container {
+}
+.customers__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -12px 0px;
+}
+.customers__header {
+  flex: 1 1 33.333%;
+  padding: 0px 12px;
+}
+
+.customers__review {
+  flex: 1 1 33.333%;
+  padding: 0px 12px;
+}
+.review-customers {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  height: 100%;
+  padding: 46px 45px 40px 45px;
+  background-color: #ffffff;
+}
+.review-customers__text {
+  flex: 1 1 auto;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+.review-customers__profile {
+}
+.profile {
+  display: flex;
+  column-gap: 17px;
+  align-items: flex-start;
+}
+.profile__picture {
+  flex: 0 0 48px;
+  height: 48px;
+}
+
+.profile__item {
+  max-width: 100%;
+  min-height: 48px;
+  border-radius: 50%;
+}
+
+.profile__name {
+  align-self: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #02133c;
+}
+
 .impact {
   padding: 0px 0px 192.5px 0px;
   background: #02133c url('../assets/mainpage/impact/img/overlay-image.png') 50%
