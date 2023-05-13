@@ -90,84 +90,140 @@
         </div>
       </section>
       <section class="services">
-        <div class="services__container">
-          <div class="services__header titles">
-            <div class="titles__label">Our services</div>
-            <h2 class="titles__item">Sed perspiciatis omnis iste natus</h2>
+        <div class="service__wrapper">
+          <div class="services__container">
+            <div class="services__header titles">
+              <div class="titles__label">Our services</div>
+              <h2 class="titles__item">Sed perspiciatis omnis iste natus</h2>
+            </div>
+            <div class="services__items">
+              <div class="services__item">
+                <div class="item-services">
+                  <div class="item-services__icon icon-services-item">
+                    <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_bay.svg"
+                      alt="car_bay">
+                  </div>
+                  <h3 class="item-services__title item-title">Multi Point Inspections</h3>
+                  <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium corrupti quos dolores et quas.</p>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="item-services">
+                  <div class="item-services__icon icon-services-item">
+                    <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_engine.svg"
+                      alt="car_engine">
+                  </div>
+                  <h3 class="item-services__title item-title">Auto Repair</h3>
+                  <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium corrupti quos dolores et quas.</p>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="item-services">
+                  <div class="item-services__icon icon-services-item">
+                    <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_breaks.svg"
+                      alt="car_breaks">
+                  </div>
+                  <h3 class="item-services__title item-title">Auto Maintenance</h3>
+                  <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium corrupti quos dolores et quas.</p>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="item-services">
+                  <div class="item-services__icon icon-services-item">
+                    <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_tires.svg"
+                      alt="car_tires">
+                  </div>
+                  <h3 class="item-services__title item-title">Tires</h3>
+                  <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium corrupti quos dolores et quas.</p>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="item-services">
+                  <div class="item-services__icon icon-services-item">
+                    <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_engine_check.svg"
+                      alt="car_engine_check">
+                  </div>
+                  <h3 class="item-services__title item-title">Service Warranty</h3>
+                  <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium corrupti quos dolores et quas.</p>
+                </div>
+              </div>
+              <div class="services__item">
+                <div class="item-services">
+                  <div class="item-services__icon icon-services-item">
+                    <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_shopping.svg"
+                      alt="car_shopping">
+                  </div>
+                  <h3 class="item-services__title item-title">Shop Online</h3>
+                  <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium corrupti quos dolores et quas.</p>
+                </div>
+              </div>
+            </div>
+            <a class="services__button button" href="#">
+              <div class="button__title">Learn More</div>
+              <div class="button__icon icon-button">
+                <img class="icon-button__item" src="assets/mainpage/top-notch/icons/arrow_forward.svg" alt="arrow">
+              </div>
+            </a>
           </div>
-          <div class="services__items">
-            <div class="services__item">
-              <div class="item-services">
-                <div class="item-services__icon icon-services-item">
-                  <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_bay.svg" alt="car_bay">
+        </div>
+      </section>
+      <section class="appointment">
+        <div class="appointment__container">
+          <div class="appointment__content">
+            <div class="content-appointment-left">
+              <form class="content-appointment-left__form form" action="#" method="get" enctype="text/plain">
+                <div class="form__title">Make an appointment</div>
+                <div class="form__body">
+                  <div class="form__item">
+                    <input class="form__name" name="name" placeholder="Name" type="text">
+                  </div>
+                  <div class="form__item">
+                    <input class="form__email" name="email" placeholder="Email" type="email">
+                  </div>
+                  <div class="form__item">
+                    <input class="form__tel" name="phone" placeholder="Phone Number" type="tel">
+                  </div>
+                  <div class="form__item">
+                    <select required class="form__select" name="service">
+                      <option class="form__option" disabled selected hidden value="">Select Service</option>
+                      <option class="form__option" value="1">Multi Point Inspections</option>
+                      <option class="form__option" value="2">Auto Repair</option>
+                      <option class="form__option" value="3">Auto Maintenance</option>
+                      <option class="form__option" value="4">Tires</option>
+                      <option class="form__option" value="5">Service Warranty</option>
+                      <option class="form__option" value="6">Shop Online</option>
+                    </select>
+                  </div>
+                  <div class="form__item">
+                    <textarea class="form__text" placeholder="Tell us about the car needing service(s)"
+                      name="text"></textarea>
+                  </div>
                 </div>
-                <h3 class="item-services__title item-title">Multi Point Inspections </h3>
-                <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
-                  qui blanditiis praesentium corrupti quos dolores et quas.</p>
-              </div>
+                <button class="form__button " type="submit">
+                  <div class="button">
+                    <div class="button__title">Make an Appointment</div>
+                    <div class="button__icon icon-button">
+                      <img class="icon-button__item" src="assets/mainpage/top-notch/icons/arrow_forward.svg"
+                        alt="arrow">
+                    </div>
+                  </div>
+                </button>
+              </form>
             </div>
-            <div class="services__item">
-              <div class="item-services">
-                <div class="item-services__icon icon-services-item">
-                  <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_engine.svg"
-                    alt="car_engine">
-                </div>
-                <h3 class="item-services__title item-title">Auto Repair</h3>
-                <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
-                  qui blanditiis praesentium corrupti quos dolores et quas.</p>
-              </div>
-            </div>
-            <div class="services__item">
-              <div class="item-services">
-                <div class="item-services__icon icon-services-item">
-                  <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_breaks.svg"
-                    alt="car_breaks">
-                </div>
-                <h3 class="item-services__title item-title">Auto Maintenance</h3>
-                <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
-                  qui blanditiis praesentium corrupti quos dolores et quas.</p>
-              </div>
-            </div>
-            <div class="services__item">
-              <div class="item-services">
-                <div class="item-services__icon icon-services-item">
-                  <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_tires.svg"
-                    alt="car_tires">
-                </div>
-                <h3 class="item-services__title item-title">Tires</h3>
-                <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
-                  qui blanditiis praesentium corrupti quos dolores et quas.</p>
-              </div>
-            </div>
-            <div class="services__item">
-              <div class="item-services">
-                <div class="item-services__icon icon-services-item">
-                  <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_engine_check.svg"
-                    alt="car_engine_check">
-                </div>
-                <h3 class="item-services__title item-title">Service Warranty</h3>
-                <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
-                  qui blanditiis praesentium corrupti quos dolores et quas.</p>
-              </div>
-            </div>
-            <div class="services__item">
-              <div class="item-services">
-                <div class="item-services__icon icon-services-item">
-                  <img class="icon-services-item__image" src="assets/mainpage/services/icons/car_shopping.svg"
-                    alt="car_shopping">
-                </div>
-                <h3 class="item-services__title item-title">Shop Online</h3>
-                <p class="item-services__text item-text">At vero eos et accusamus et iusto odio dignissimos ducimus
-                  qui blanditiis praesentium corrupti quos dolores et quas.</p>
+            <div class="content-appointment-right">
+              <div class="content-appointment__info info">
+                <div class="info__label">Maxime placeat facere possimus omnis </div>
+                <div class="info__value">17k</div>
+                <div class="info__text">customers served (and counting)</div>
               </div>
             </div>
           </div>
-          <a class="services__button button" href="#">
-            <div class="button__title">Learn More</div>
-            <div class="button__icon icon-button">
-              <img class="icon-button__item" src="assets/mainpage/top-notch/icons/arrow_forward.svg" alt="arrow">
-            </div>
-          </a>
         </div>
       </section>
       <section class="customers">
