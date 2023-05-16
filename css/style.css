@@ -156,12 +156,17 @@ body {
 
 .top-notch {
   position: relative;
-  padding: 280px 0px 312px 0px;
+
   background: url('../assets/mainpage/top-notch/img/hero.png') 50% 0 / auto 100%
     no-repeat;
 }
 .top-notch__container {
 }
+
+.top-notch__content {
+  padding: 280px 0px 312px 0px;
+}
+
 .top-notch__title {
   max-width: 583px;
   font-weight: 900;
