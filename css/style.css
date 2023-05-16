@@ -183,14 +183,14 @@ body {
 .who-we-are {
   padding: 0px 0px 118px 0px;
 }
-.who-we-are__wrapper {
-  max-width: 1020px;
-  margin: 0 auto;
-}
+
 .who-we-are__container {
   position: relative;
+}
+
+.who-we-are__content {
   padding: 97px 87px 1px 87px;
-  margin: -7.8% auto 0px;
+  margin: -7.8% 0px 0px 0px;
   background: #ffffff url('../assets/mainpage/who-we-are/img/decor.png') right
     top / 62.94% auto no-repeat;
 }
@@ -218,9 +218,12 @@ body {
 }
 
 .promise {
-  padding: 108px 0px 122px 0px;
 }
 .promise__container {
+}
+
+.promise__content {
+  padding: 108px 0px 122px 0px;
 }
 .promise__header {
 }
