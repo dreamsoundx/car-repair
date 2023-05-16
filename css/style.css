@@ -58,8 +58,9 @@ body {
 /* ------------------------------ */
 
 [class*='__container'] {
-  max-width: 1020px;
+  max-width: 1050px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .titles {
@@ -273,27 +274,24 @@ body {
 .services {
 }
 
-.service__wrapper {
-  max-width: 1020px;
-  margin: 0 auto;
-}
-
 .services__container {
   position: relative;
+}
+
+.services__content {
   display: flex;
   flex-direction: column;
-  padding: 110px 0px 11.96% 0px;
+  padding: 10.47% 0px 11.96% 0px;
 }
 
 .services__container::before {
   position: absolute;
   content: '';
-  top: -110px;
+  top: 0;
   right: 50%;
   height: 100%;
   width: 62.84%;
   transform: translate(-12.35%, 0%);
-  /* margin: -10.2% 7.6% 0px 0px; */
   background: url('../assets/mainpage/services/img/decor1.png') 0 0 / 100%
     no-repeat;
 }
@@ -302,11 +300,11 @@ body {
   position: absolute;
   content: '';
   top: 100%;
-  right: 0%;
+  left: 50%;
   height: 100%;
-  width: 62.94%;
-  transform: translate(32.5%, 0%);
-  margin: -44% 0px 0px 0px;
+  width: 61.14%;
+  margin: -42.85% 0px 0px 0px;
+  transform: translate(12%, 0px);
   background: url('../assets/mainpage/services/img/decor2.png') 0 0 / 100%
     no-repeat;
 }
@@ -471,6 +469,7 @@ body {
 .form__item {
   flex: 1 1 50%;
   padding: 0px 11.22px;
+  min-width: 180px;
 }
 
 .form__name {
@@ -718,7 +717,7 @@ body {
 .impact__item {
   flex: 1 1 25%;
   padding: 0px 12px;
-  min-width: 205px;
+  min-width: 245px;
 }
 .item-impact {
   display: flex;
