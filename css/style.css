@@ -281,7 +281,7 @@ body {
 .services__content {
   display: flex;
   flex-direction: column;
-  padding: 10.47% 0px 11.96% 0px;
+  padding: 108px 0px 121px 0px;
 }
 
 .services__container::before {
@@ -290,7 +290,7 @@ body {
   top: 0;
   right: 50%;
   height: 100%;
-  width: 62.84%;
+  width: 61.04%;
   transform: translate(-12.35%, 0%);
   background: url('../assets/mainpage/services/img/decor1.png') 0 0 / 100%
     no-repeat;
@@ -384,7 +384,6 @@ body {
 }
 
 .appointment {
-  padding: 130px 0px 210px 0px;
   background-color: #02133c;
 }
 
@@ -396,10 +395,10 @@ body {
   content: '';
   top: 100%;
   left: 0;
-  width: 62.94%;
+  width: 61.14%;
   height: 100%;
-  transform: translate(-34%, 0%);
-  margin: -31% 0px 0px 0px;
+  transform: translate(-30.5%, 0%);
+  margin: -50.5% 0px 0px 0px;
   background: url('../assets/mainpage/appointment/img/gears4.png') 0 0 / 100%
     no-repeat;
 }
@@ -407,16 +406,17 @@ body {
 .appointment__container::after {
   position: absolute;
   content: '';
-  top: -130px;
-  right: 0;
-  width: 62.94%;
+  top: 0;
+  left: 50%;
+  width: 61.14%;
   height: 100%;
-  transform: translate(32.7%, 0%);
+  transform: translate(12%, 0%);
   background: url('../assets/mainpage/appointment/img/gears5.png') 0 0 / 100%
     no-repeat;
 }
 
 .appointment__content {
+  padding: 130px 0px 210px 0px;
   position: relative;
   display: flex;
   flex-wrap: wrap;

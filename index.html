@@ -177,10 +177,10 @@
         <div class="appointment__container">
           <div class="appointment__content">
             <div class="content-appointment-left">
-              <form class="content-appointment-left__form form" action="#" method="get" enctype="text/plain">
+              <div class="content-appointment-left__form form">
                 <div class="form__title">Make an appointment</div>
-                <div class="form__body">
-                  <div class="form__item">
+                <form class="form__body" action="#" method="get" enctype="text/plain">
+                  <div class=" form__item">
                     <input class="form__name" name="name" placeholder="Name" type="text">
                   </div>
                   <div class="form__item">
@@ -204,7 +204,7 @@
                     <textarea class="form__text" placeholder="Tell us about the car needing service(s)"
                       name="text"></textarea>
                   </div>
-                </div>
+                </form>
                 <button class="form__button " type="submit">
                   <div class="button">
                     <div class="button__title">Make an Appointment</div>
@@ -214,7 +214,7 @@
                     </div>
                   </div>
                 </button>
-              </form>
+              </div>
             </div>
             <div class="content-appointment-right">
               <div class="content-appointment__info info">
