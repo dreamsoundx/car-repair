@@ -3,7 +3,7 @@
 &display=swap
 &subset=cyrillic-ext 
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -12,7 +12,7 @@
   padding: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 li {
@@ -53,7 +53,7 @@ html {
 
 body {
   line-height: 1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #4b4b4b;
   background: #f5f5f5;
 }
@@ -66,11 +66,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-[class*='__container'] {
+[class*=__container] {
   max-width: 1050px;
   margin: 0 auto;
   padding: 0px 15px;
@@ -84,15 +84,14 @@ body {
   text-transform: uppercase;
   color: #4b4b4b;
   padding: 0px 0px 0px 32px;
-  background: url('../assets/about/icons/overline-mark.svg') -3px -2px no-repeat;
+  background: url("../assets/about/icons/overline-mark.svg") -3px -2px no-repeat;
 }
 .titles__label *:not(:last-child) {
   margin-bottom: 29px;
 }
 .titles__label_white {
   color: #d5d5d5;
-  background: url('../assets/impact/icons/overline-mark.svg') -3px -2px
-    no-repeat;
+  background: url("../assets/impact/icons/overline-mark.svg") -3px -2px no-repeat;
 }
 .titles__item {
   font-weight: 900;
@@ -111,16 +110,14 @@ body {
   background-color: #c40b0b;
   overflow: hidden;
   -webkit-column-gap: 6px;
-  -moz-column-gap: 6px;
-  column-gap: 6px;
+     -moz-column-gap: 6px;
+          column-gap: 6px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .button:hover {
-  -webkit-box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2),
-    0 8px 16px 0 rgba(38, 38, 38, 0.24);
-  box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2),
-    0 8px 16px 0 rgba(38, 38, 38, 0.24);
+  -webkit-box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2), 0 8px 16px 0 rgba(38, 38, 38, 0.24);
+          box-shadow: 0 16px 24px 0 rgba(38, 38, 38, 0.2), 0 8px 16px 0 rgba(38, 38, 38, 0.24);
 }
 .button__title {
   padding: 12px 0px 12px 19px;
@@ -138,21 +135,21 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transform: skew(-20deg);
-  -ms-transform: skew(-20deg);
-  transform: skew(-20deg);
+      -ms-transform: skew(-20deg);
+          transform: skew(-20deg);
   -webkit-transform-origin: bottom right;
-  -ms-transform-origin: bottom right;
-  transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
   background: #e30b0b;
 }
 .button__img {
   padding: 0px 0px 0px 3.5px;
   -webkit-transform: skew(20deg);
-  -ms-transform: skew(20deg);
-  transform: skew(20deg);
+      -ms-transform: skew(20deg);
+          transform: skew(20deg);
 }
 
 .item-title {
@@ -169,13 +166,13 @@ body {
 
 .main {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .offer {
   position: relative;
-  background: url('../assets/offer/img/bg.png') 50% 0 / cover no-repeat;
+  background: url("../assets/offer/img/bg.png") 50% 0/cover no-repeat;
 }
 .offer__content {
   padding: 280px 0px 312px 0px;
@@ -189,4 +186,33 @@ body {
 }
 .offer__title:not(:last-child) {
   margin-bottom: 48px;
+}
+.about {
+  padding: 0px 0px 118px 0px;
+}
+.about__container {
+  position: relative;
+}
+.about__content {
+  padding: 97px 87px 1px 87px;
+  margin: -7.8% 0px 0px 0px;
+  background: #ffffff url("../assets/about/img/decor.png") 100% 0/62.94% auto no-repeat;
+}
+.about__header {
+  max-width: 583px;
+  margin: 0px 0px 36px 0px;
+}
+.about__text {
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+.about__text:not(:last-child) {
+  margin: 0px 0px 57px 0px;
+}
+.about__image {
+  margin: 0px 0px -14.2% 0px;
+}
+.about__img {
+  max-width: 100%;
 }

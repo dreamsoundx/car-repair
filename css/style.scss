@@ -162,3 +162,52 @@ body {
   &__button {
   }
 }
+
+.about {
+  padding: 0px 0px 118px 0px;
+
+  // .about__container
+
+  &__container {
+    position: relative;
+  }
+
+  // .about__content
+
+  &__content {
+    padding: 97px 87px 1px 87px;
+    margin: -7.8% 0px 0px 0px;
+    background: #ffffff url('../assets/about/img/decor.png') 100% 0 / 62.94%
+      auto no-repeat;
+  }
+
+  // .about__header
+
+  &__header {
+    max-width: 583px;
+    margin: 0px 0px 36px 0px;
+  }
+
+  // .about__text
+
+  &__text {
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    color: #4b4b4b;
+    &:not(:last-child) {
+      margin: 0px 0px 57px 0px;
+    }
+  }
+
+  // .about__image
+
+  &__image {
+    margin: 0px 0px -14.2% 0px;
+  }
+
+  // .about__img
+
+  &__img {
+    max-width: 100%;
+  }
+}
