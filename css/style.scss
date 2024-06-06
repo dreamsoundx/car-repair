@@ -185,7 +185,9 @@ body {
 
   &__header {
     max-width: 583px;
-    margin: 0px 0px 36px 0px;
+    &:not(:last-child) {
+      margin-bottom: 36px;
+    }
   }
 
   // .about__text

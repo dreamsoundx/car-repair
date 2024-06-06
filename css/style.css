@@ -198,7 +198,9 @@ body {
 }
 .about__header {
   max-width: 583px;
-  margin: 0px 0px 36px 0px;
+}
+.about__header:not(:last-child) {
+  margin-bottom: 36px;
 }
 .about__text {
   line-height: 150%;
