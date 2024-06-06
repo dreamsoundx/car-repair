@@ -1,93 +1,69 @@
-.impact {
-  // .impact__container
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import '_null';
 
-  &__container {
-  }
-
-  // .impact__content
-
-  &__content {
-  }
-
-  // .impact__body
-
-  &__body {
-  }
-
-  // .impact__title
-
-  &__title {
-  }
-
-  // .impact__header
-
-  &__header {
-  }
-
-  // .impact__image
-
-  &__image {
-  }
-
-  // .impact__items
-
-  &__items {
-  }
-
-  // .impact__item
-
-  &__item {
-  }
+html {
+  font-size: 16px;
 }
+
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  color: #4b4b4b;
+  background: #f5f5f5;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*='__container'] {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
 .titles {
   // .titles__label
 
   &__label {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+    padding: 0px 0px 0px 32px;
+    background: url('../assets/about/icons/overline-mark.svg') -3px -2px
+      no-repeat;
+    *:not(:last-child) {
+      margin-bottom: 29px;
+    }
     // .titles__label_white
 
     &_white {
+      color: #d5d5d5;
+      background: url('../assets/impact/icons/overline-mark.svg') -3px -2px
+        no-repeat;
     }
   }
 
   // .titles__item
 
   &__item {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    color: #02133c;
     // .titles__item_white
-
     &_white {
+      color: #ffffff;
     }
-  }
-}
-.image-impact {
-  // .image-impact__item
-
-  &__item {
-  }
-}
-.item-impact {
-  // .item-impact__icon
-
-  &__icon {
-  }
-
-  // .item-impact__body
-
-  &__body {
-  }
-
-  // .item-impact__value
-
-  &__value {
-  }
-
-  // .item-impact__text
-
-  &__text {
-  }
-}
-.icon-impact-item {
-  // .icon-impact-item__image
-
-  &__image {
   }
 }

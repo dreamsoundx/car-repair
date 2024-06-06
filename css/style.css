@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  color: #4b4b4b;
+  background: #f5f5f5;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+[class*=__container] {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.titles__label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #4b4b4b;
+  padding: 0px 0px 0px 32px;
+  background: url("../assets/about/icons/overline-mark.svg") -3px -2px no-repeat;
+}
+.titles__label *:not(:last-child) {
+  margin-bottom: 29px;
+}
+.titles__label_white {
+  color: #d5d5d5;
+  background: url("../assets/impact/icons/overline-mark.svg") -3px -2px no-repeat;
+}
+.titles__item {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 117%;
+  color: #02133c;
+}
+.titles__item_white {
+  color: #ffffff;
+}
