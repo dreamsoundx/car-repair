@@ -206,7 +206,7 @@ body {
   color: #4b4b4b;
 }
 .about__text:not(:last-child) {
-  margin: 0px 0px 57px 0px;
+  margin-bottom: 57px;
 }
 .about__image {
   margin: 0px 0px -14.2% 0px;
