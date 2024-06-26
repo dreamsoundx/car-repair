@@ -273,8 +273,31 @@ body {
 .item-promise__title:not(:last-child) {
   margin-bottom: 20px;
 }
+.services__container {
+  position: relative;
+}
+.services__container:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 57.4%;
+  width: 61.14%;
+  height: 100%;
+  background: url("../assets/services/img/decor1.png") 0 0/100% no-repeat;
+}
+.services__container:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 57.5%;
+  width: 61.14%;
+  height: 100%;
+  margin: -42.8% 0px 0px 0px;
+  background: url("../assets/services/img/decor2.png") 0 0/100% no-repeat;
+}
 .services__content {
   position: relative;
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,25 +306,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 108px 0px 121px 0px;
-}
-.services__content:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 57.7%;
-  width: 62.84%;
-  height: 100%;
-  background: url("../assets/services/img/decor1.png") 0 0/100% no-repeat;
-}
-.services__content:after {
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 58.2%;
-  width: 62.14%;
-  height: 100%;
-  margin: -43.4% 0px 0px 0px;
-  background: url("../assets/services/img/decor2.png") 0 0/100% no-repeat;
 }
 .services__header {
   position: relative;
@@ -387,7 +391,32 @@ body {
 .appointment {
   background: #02133c;
 }
+.appointment__container {
+  position: relative;
+}
+.appointment__container::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: -18.5%;
+  margin: -50.2% 0px 0px 0px;
+  width: 61.14%;
+  height: 100%;
+  background: url("../assets/appointment/img/gears4.png") 0 0/100% no-repeat;
+}
+.appointment__container::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 57.5%;
+  margin: 0px 0px 0px 0px;
+  width: 61.14%;
+  height: 100%;
+  background: url("../assets/appointment/img/gears5.png") 0 0/100% no-repeat;
+}
 .appointment__content {
+  z-index: 2;
+  position: relative;
   padding: 130px 0px 210px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
