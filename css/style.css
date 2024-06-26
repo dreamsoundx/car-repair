@@ -384,6 +384,204 @@ body {
 .item-services__title:not(:last-child) {
   margin-bottom: 20px;
 }
+.appointment {
+  background: #02133c;
+}
+.appointment__content {
+  padding: 130px 0px 210px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -33px;
+  row-gap: 33px;
+}
+.appointment__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
+  padding: 0px 33px;
+}
+.appointment__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+  padding: 0px 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.appointment__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 62px;
+  text-align: center;
+  max-width: 324px;
+}
+.appointment__label {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.appointment__number {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 58%;
+  color: #c40b0b;
+}
+.appointment__text {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 137%;
+  color: #ffffff;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 76px 57px;
+  background: #ffffff;
+}
+.form__title {
+  text-align: center;
+}
+.form__title:not(:last-child) {
+  margin-bottom: 46px;
+}
+.form__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -12.22px;
+  row-gap: 22px;
+}
+.form__body:not(:last-child) {
+  margin-bottom: 26px;
+}
+.form__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding: 0px 12.22px;
+  min-width: 180px;
+}
+.form__input {
+  padding: 0px 0px 0px 23px;
+  background: #f5f5f5;
+  width: 100%;
+  min-height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+.form__input::-webkit-input-placeholder {
+  color: #959595;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input::-moz-placeholder {
+  color: #959595;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input:-ms-input-placeholder {
+  color: #959595;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input::-ms-input-placeholder {
+  color: #959595;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__input::placeholder {
+  color: #959595;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__select {
+  padding: 0px 0px 0px 23px;
+  background: #f5f5f5;
+  width: 100%;
+  min-height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+.form__select:invalid {
+  color: #959595;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__option {
+  color: #000000;
+}
+.form__textarea {
+  padding: 12px 0px 0px 23px;
+  background: #f5f5f5;
+  resize: none;
+  min-height: 182px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+.form__textarea::-webkit-input-placeholder {
+  color: #959595;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea::-moz-placeholder {
+  color: #959595;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea:-ms-input-placeholder {
+  color: #959595;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea::-ms-input-placeholder {
+  color: #959595;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__textarea::placeholder {
+  color: #959595;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.form__button {
+  cursor: pointer;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
 .impact {
   background: #02133c url("../assets/impact/img/overlay-image.png") 50% 50%/auto 95% no-repeat;
 }
