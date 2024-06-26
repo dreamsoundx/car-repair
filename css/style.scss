@@ -460,29 +460,27 @@ body {
     padding: 130px 0px 210px 0px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -33px;
-    row-gap: 33px;
+    margin: 0px -15px;
+    row-gap: 30px;
   }
 
   // .appointment__left
 
   &__left {
-    // position: relative;
-    flex: 1 1 60%;
-    padding: 0px 33px;
+    flex: 1 1 58.57%;
+    padding: 0px 15px;
   }
 
   // .appointment__form
 
   &__form {
-    // position: relative;
   }
 
   // .appointment__right
 
   &__right {
-    flex: 1 1 40%;
-    padding: 0px 33px;
+    flex: 1 1 41.43%;
+    padding: 0px 15px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -491,7 +489,6 @@ body {
   // .appointment__body
 
   &__body {
-    // position: relative;
     display: flex;
     flex-direction: column;
     row-gap: 62px;
