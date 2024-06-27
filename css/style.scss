@@ -622,6 +622,89 @@ body {
   }
 }
 
+.customers {
+  // .customers__container
+
+  &__container {
+  }
+
+  // .customers__content
+
+  &__content {
+    padding: 120px 0px 210px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -12px;
+    row-gap: 24px;
+  }
+
+  // .customers__header
+
+  &__header {
+    flex: 1 1 33.333%;
+    padding: 0px 12px;
+  }
+
+  // .customers__review
+
+  &__review {
+    flex: 1 1 33.333%;
+    padding: 0px 12px;
+  }
+}
+
+.review-customers {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 45px 45px 45px;
+  background: #ffffff;
+  height: 100%;
+  // .review-customers__text
+
+  &__text {
+    flex: 1 1 auto;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    &:not(:last-child) {
+      margin-bottom: 34px;
+    }
+  }
+
+  // .review-customers__profile
+
+  &__profile {
+    display: flex;
+    column-gap: 17px;
+  }
+
+  // .review-customers__image
+
+  &__image {
+    flex: 0 0 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+  }
+
+  // .review-customers__img
+
+  &__img {
+    max-width: 100%;
+    max-height: 48px;
+    border-radius: 50%;
+  }
+
+  // .review-customers__name
+
+  &__name {
+    align-self: center;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #02133c;
+  }
+}
+
 .impact {
   background: #02133c url('../assets/impact/img/overlay-image.png') 50% 50% /
     auto 95% no-repeat;
