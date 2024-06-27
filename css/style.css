@@ -525,31 +525,26 @@ body {
 }
 .form__input::-webkit-input-placeholder {
   color: #959595;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.01em;
 }
 .form__input::-moz-placeholder {
   color: #959595;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.01em;
 }
 .form__input:-ms-input-placeholder {
   color: #959595;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.01em;
 }
 .form__input::-ms-input-placeholder {
   color: #959595;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.01em;
 }
 .form__input::placeholder {
   color: #959595;
-  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.01em;
 }
